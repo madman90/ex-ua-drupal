@@ -159,11 +159,12 @@
 
   </div></div> <!-- /.section, /#header -->
 
-  <?php if ($messages): ?>
-    <div id="messages"><div class="section clearfix">
-      <?php print $messages; ?>
-    </div></div> <!-- /.section, /#messages -->
-  <?php endif; ?>
+<!--  --><?php //if ($messages): ?>
+<!--    <div id="messages"><div class="section clearfix">-->
+<!--      --><?php //print $messages; ?>
+<!--    </div></div> -->
+<!-- /.section, /#messages -->
+<!--  --><?php //endif; ?>
 
   <?php if ($page['featured']): ?>
     <div id="featured"><div class="section clearfix">
@@ -173,9 +174,9 @@
 
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
 
-    <?php if ($breadcrumb): ?>
-      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-    <?php endif; ?>
+<!--    --><?php //if ($breadcrumb): ?>
+<!--      <div id="breadcrumb">--><?php //print $breadcrumb; ?><!--</div>-->
+<!--    --><?php //endif; ?>
 
     <?php if ($page['sidebar_first']): ?>
       <div id="sidebar-first" class="column sidebar"><div class="section">
